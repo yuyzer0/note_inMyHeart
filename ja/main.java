@@ -16,7 +16,7 @@ public  class main extends HttpServlet{
 
   //doGet
   protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
-
+    response.sendRedirect("/index.jsp")
   }
 
   //doPost
