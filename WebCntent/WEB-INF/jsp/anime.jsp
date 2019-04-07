@@ -15,21 +15,11 @@
   </head>
   <body>
     <h1>心のノート</h1>
+    <h2>アニメ</<h2>
     <h3>心のノートにしまっておけよ</h3>
-    <p>
 
-    <p>
-      <div>
-        <a href="all.html">すべてへ</a>
-      </div>
+    <div>
 
-      <div>
-    　   <a href="hinata.html">日向関係へ</a>
-      </div>
-
-      <div>
-    　   <a href="anime.html">アニメ関係へ</a>
-      </div>
-
+    </div>
   </body>
 </html>
