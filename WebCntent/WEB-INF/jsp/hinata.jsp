@@ -1,3 +1,12 @@
+<%@ page lanugage="java" contentType="text/html; charset=UTF-8"
+    pageEncording="UTF-8" %>
+
+<%
+    //servletのデータ受け取り
+    request.setCharacterEncording("UTF-8");
+    String strServlet = (String) request.getAttribute("fromServlet");
+%>
+
 <!DOCTYPE html>
 <html lang = "ja">
   <head>
@@ -9,7 +18,7 @@
     <h2>日向坂関係</<h2>
     <h3>心のノートにしまっておけよ</h3>
     <div>
-      ねるちゃん、1番最初にひらがなけやきになってくれてありがとう。
+      ねるちゃん、1番最初にひらがなけやきになってくれてありがとう。<br>
       ひらがなけやきを作ってくれてありがとう。
       <p>
         <a href="https://www.hinatazaka46.com/s/official/diary/detail/23534?ima=0000&cd=member">

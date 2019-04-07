@@ -1,0 +1,46 @@
+<%@ page lanugage="java" contentType="text/html; charset=UTF-8"
+    pageEncording="UTF-8" %>
+
+<%
+    //servletのデータ受け取り
+    request.setCharacterEncording("UTF-8");
+    String strServlet = (String) request.getAttribute("fromServlet");
+%>
+
+<!DOCTYPE html>
+<html lang = "ja">
+  <head>
+    <meta charset = "UTF-8">
+    <title>心のノード</title>
+  </head>
+  <body>
+    <h1>心のノート</h1>
+    <h2>ALL</<h2>
+    <h3>心のノートにしまっておけよ</h3>
+
+    <div>
+      ねるちゃん、1番最初にひらがなけやきになってくれてありがとう。<br>
+      <b>ひらがなけやきを作ってくれてありがとう。</b>
+      <p>
+        <a href="https://www.hinatazaka46.com/s/official/diary/detail/23534?ima=0000&cd=member">
+          井口 2017.9.28
+        </a>
+      </p>
+    </div>
+
+    <div>
+      人の能力にきっとそんな大きな差はないからこそ、<b>全ては「やるかやらないか」</b>なんだなと常々思う。<br>
+      輝いてる人は皆必ず人より多くやってる。<br>
+      僕達は本気で『メモの魔力』を輝かせたいから、琴線に1mmでも触れる「届ける為の施策」は、全部やる。
+      <p>
+          <a href="https://twitter.com/UGMD/status/1071576058338533376">
+            前田裕二　twitter
+          </a>
+          </p>
+    </div>
+
+    <div>
+
+    </div>
+  </body>
+</html>
