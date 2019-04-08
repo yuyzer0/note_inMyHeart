@@ -1,1 +1,1 @@
-# note to learn html css js
+learning html, css, and js
