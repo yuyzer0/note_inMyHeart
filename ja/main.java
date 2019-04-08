@@ -1,5 +1,5 @@
-package main;
-
+//package main;
+package ja;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -13,6 +13,11 @@ import javax.servlet.http.HttpSession;
 @WebServlet("/main")
 public  class main extends HttpServlet{
     private static final long serialVersionUID = 1L;
+
+  //
+  public main(){
+    super();
+  }
 
   //doGet
   protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
@@ -29,7 +34,7 @@ public  class main extends HttpServlet{
     request.setAttribute("formServlet", jsp + "+サーブレットで追加");
 
     //.jspにページ遷移
-    RequestDispatcher dispatch = request.getRequestDispatcher("hinata.jsp");
+    RequestDispatcher dispatch = request.getRequestDispatcher("/hinata.jsp");
     dispatch.forward(request, response);
   }
 
