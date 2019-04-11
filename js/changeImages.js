@@ -3,43 +3,43 @@
 
   for (var i = 1; i < 15; i++) {
     var num = (000 + i).slice( -4 );
-    var filePass = "annkw" + num;
+    var filePass = "images/annkw" + num;
     picSrc.add(filePass);
   }
 
   for (var i = 1; i < 2; i++) {
     var num = (000 + i).slice( -4 );
-    var filePass = "book" + num;
+    var filePass = "images/book" + num;
     picSrc.add(filePass);
   }
 
   for (var i = 1; i < 10; i++) {
     var num = (000 + i).slice( -4 );
-    var filePass = "hinata" + num;
+    var filePass = "images/hinata" + num;
     picSrc.add(filePass);
   }
 
   for (var i = 1; i < 4; i++) {
     var num = (000 + i).slice( -4 );
-    var filePass = "keyaki" + num;
+    var filePass = "images/keyaki" + num;
     picSrc.add(filePass);
   }
 
   for (var i = 1; i < 2; i++) {
     var num = (000 + i).slice( -4 );
-    var filePass = "non" + num;
+    var filePass = "images/non" + num;
     picSrc.add(filePass);
   }
 
   for (var i = 1; i < 4; i++) {
     var num = (000 + i).slice( -4 );
-    var filePass = "other" + num;
+    var filePass = "images/other" + num;
     picSrc.add(filePass);
   }
 
   for (var i = 1; i < 2; i++) {
     var num = (000 + i).slice( -4 );
-    var filePass = "travel" + num;
+    var filePass = "images/travel" + num;
     picSrc.add(filePass);
   }
 
