@@ -45,7 +45,7 @@
 
 
 
-  slideTimer ();
+  slideTimer();
 
   function slideTimer(){
 
