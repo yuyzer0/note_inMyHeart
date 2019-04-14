@@ -9,7 +9,7 @@
     <title>心のノード</title>
   </head>
   <body>
-
+    
     <img id="pic" onclick="slideTimer()" src="images/hinata/0001.jpg" alt="">
 
     <h1>心のノート</h1>
@@ -51,7 +51,7 @@
   
   var picSrc = [  "/images/hinata0001.jpg"
                 , "/images/annkw00001.jpg"
-                , "/images/hinata0002.jpg"]
+                , "/images/hinata0002.jpg"];
       /*
       new Array();
   var picJpg = ".jpg";
@@ -99,20 +99,19 @@
   }
   */
 
-
+  var cnt = 0
 
   slideTimer();
 
   function slideTimer(){
 
-    var cnt = 0
     if(cnt == picSrc.length){
       cnt = 0 ;
     }else{
       cnt ++ ;
     }
 
-    document.getElementByID("pic").src = picSrc[cnt];
+    document.getElementById("pic").src = picSrc[cnt];
     //setTimeout("slideTimer()", 1000);
 
   }
