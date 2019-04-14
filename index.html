@@ -49,7 +49,11 @@
   
   function slideTimer(){
   
-  var picSrc = new Array();
+  var picSrc = [  "/images/hinata0001.jpg"
+                , "/images/annkw00001.jpg"
+                , "/images/hinata0002.jpg"]
+      /*
+      new Array();
   var picJpg = ".jpg";
 
   for (var i = 1; i < 15; i++) {
@@ -93,12 +97,13 @@
     var filePass = "images/travel" + num + picJpg;
     picSrc.add(filePass);
   }
+  */
 
 
 
-  //slideTimer();
+  slideTimer();
 
-  //function slideTimer(){
+  function slideTimer(){
 
     var cnt = 0
     if(cnt == picSrc.length){
